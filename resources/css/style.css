@@ -1,0 +1,551 @@
+html {
+  font-size: 18px;
+  font-family: Helvetica, sans-serif;
+  line-height: 1.4;
+}
+
+
+
+.sitecontainer {
+  display: flex;
+  width: 100%;
+  height: auto;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.headercontainer {
+  display: flex;
+  width: 100%;
+  height: auto;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.imagecontainer {
+  display: flex;
+  width: 100%;
+  height: auto;
+  max-width: 960px;
+  margin: 0 auto;
+}
+.columncontainer {
+  display: flex;
+  width: 100%;
+  height: auto;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.footercontainer {
+  display: flex;
+  width: 100%;
+  height: auto;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+
+
+header {
+  display: inline-flex;
+
+}
+
+.header {
+  background-image: url("../images/mainbckgrnd.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 30rem;
+}
+
+
+.headerbackgroundcolor {
+  background-color: cadetblue;
+  padding-bottom: 1rem;
+  margin-top: 1rem;
+  display: inline-flex;
+  width: 960px;
+}
+ #menu {
+   display: none;
+ }
+
+
+  .logo img {
+    height: 1rem;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 1rem;
+
+  }
+
+  nav, .heading {
+    padding-top: 1rem;
+    color: seashell;
+    font-size: 1rem;
+
+  }
+
+  a, a:visited {
+    color: seashell;
+    text-decoration: none;
+  }
+
+  .heading {
+    padding-right: 20rem;
+  }
+
+  nav span {
+    padding-right: 2rem;
+
+  }
+
+  .slogan {
+    display: inline-flex;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 1.2;
+    margin-top: 10rem;
+    margin-left: 31rem;
+    flex-shrink: 0;
+  }
+
+  .slogan p {
+    padding-left: 5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-right: 5rem;
+    flex-shrink: 0;
+
+  }
+
+  .images {
+    display: inline-flex;
+   align-items: center;
+    padding-top: 3rem;
+    padding-left: 9rem;
+    padding-bottom: 3rem;
+  }
+
+
+  .paper img {
+    width: 3.5rem;
+    padding-left: 2.25rem;
+    padding-bottom: 1rem;
+  }
+
+  .ruler img {
+    width: 5rem;
+    padding-left: 1.5rem;
+    padding-bottom: 2.75rem;
+  }
+
+  .truck img {
+    width: 5rem;
+    padding-left: 1.5rem;
+    padding-bottom: 2.25rem;
+  }
+
+  .paper p, .ruler p, .truck p {
+    text-align: center;
+    line-height: 1.4;
+
+  }
+
+  .ruler p, .truck p {
+    width: 5rem;
+    padding-left: 1.5rem;
+  }
+
+  .allpaper, .allruler, .alltruck {
+padding-right: 6rem;
+  }
+
+  .paper, .ruler, .truck {
+  background-color: white;
+  height: 8rem;
+  width: 8rem;
+  }
+
+  .leftcolumntitle {
+    background-color: cadetblue;
+    color: seashell;
+    width: 10rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1.25rem;
+  }
+  .rightcolumntitle {
+    background-color: cadetblue;
+    color: seashell;
+    width: 10rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1.25rem;
+  }
+  .leftcolumn {
+    width: 35%;
+    padding-right: 2.5%;
+  }
+  .rightcolumn {
+    width: 35%;
+    padding-left: 2.5%
+  }
+  .maincontent {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5rem;
+  }
+
+  .leftcolumnparagraph, .rightcolumnparagraph {
+    line-height: 1.4;
+    padding-top: 1rem;
+}
+
+  footer {
+    display: flex;
+
+
+  }
+
+  .footer {
+    display: flex;
+    background-color: azure;
+    max-width: 960px;
+    width: 100%;
+
+  }
+
+  .footerlogo img {
+    height: 1.5rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-left: 4rem;
+    padding-right: 1rem;
+  }
+
+  .footerheading {
+    padding-top: 4.25rem;
+  }
+
+
+
+    @media only screen and (max-width: 1024px) {
+
+      .headercontainer {
+        display: flex;
+        width: 100%;
+        height: auto;
+        max-width: 1024px;
+        margin: 0, auto;
+
+      }
+
+
+      .headerbackgroundcolor {
+        background-color: cadetblue;
+        padding-bottom: 1rem;
+        margin-top: 0rem;
+        display: inline-flex;
+        width: 1024px;
+      }
+
+      .header {
+        background-image: url("../images/mainbckgrnd.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 22rem;
+      }
+
+      header {
+        display: inline-flex;
+        flex-shrink: 0;
+
+      }
+
+      .slogan {
+        display: inline-flex;
+        background-color: white;
+        color: black;
+        font-weight: bold;
+        font-size: 1.33rem;
+        line-height: 1.2;
+        margin-top: 5rem;
+        flex-shrink: 0;
+        margin-right: 2rem;
+      }
+
+      .slogan p {
+        padding-left: 4rem;
+        padding-top: 0.75rem;
+        padding-bottom: 0.75rem;
+        padding-right: 4rem;
+        flex-shrink: 0;
+      }
+
+      .imagecontainer {
+        display: flex;
+        width: 100%;
+        height: auto;
+        max-width: 1024px;
+        margin: 0 auto;
+      }
+      .columncontainer {
+        display: flex;
+        width: 100%;
+        height: auto;
+        max-width: 1024px;
+        margin: 0 auto;
+      }
+
+      .footercontainer {
+        display: flex;
+        width: 100%;
+        height: auto;
+        max-width: 1024px;
+        margin: 0, auto;
+      }
+
+      .footer {
+        display: flex;
+        background-color: azure;
+        max-width: 1024px;
+        width: 100%;
+      }
+
+
+        @media only screen and (max-width: 470px) {
+
+          .headercontainer {
+            display: flex;
+            width: 100%;
+            height: auto;
+            max-width: 470px;
+            margin: 0 auto;
+          }
+           #menu {
+             display: flex;
+
+           }
+
+           nav span{
+             display: none;
+           }
+
+           .headerbackgroundcolor {
+             background-color: cadetblue;
+             padding-bottom: 1rem;
+             margin-top: 0rem;
+             display: inline-flex;
+             width: 470px;
+           }
+
+           .header {
+             background-image: url("../images/mainbckgrnd.png");
+             background-repeat: no-repeat;
+             background-size: cover;
+             background-position: 20%;
+             height: 17rem;
+           }
+
+           .logo img {
+             height: 1rem;
+             padding-top: 1rem;
+             padding-left: 2rem;
+             padding-right: 15rem;
+           }
+
+           .heading {
+             display: none;
+           }
+
+
+           .slogan {
+             display: block;
+             background-color: white;
+             color: black;
+             font-weight: bold;
+             font-size: 1rem;
+             line-height: 1.2;
+             margin-top: 9rem;
+             margin-left: 0rem;
+             flex-shrink: 0;
+             margin-right: 0rem;
+           }
+
+           .slogan p {
+             padding-left: 0rem;
+             padding-top: 1rem;
+             padding-bottom: 1rem;
+             padding-right: 0rem;
+             flex-shrink: 0;
+             text-align: center;
+           }
+
+           .imagecontainer {
+             display: flex;
+             width: 100%;
+             height: auto;
+             max-width: 470px;
+             margin: 0 auto;
+           }
+
+           .images {
+             display: block;
+            align-items: center;
+             padding-top: 3.7rem;
+             padding-left: 9rem;
+             padding-bottom: 3.77rem;
+
+           }
+
+
+           .paper img {
+             width: 3.5rem;
+             padding-left: 2.25rem;
+             padding-bottom: 0.5rem;
+           }
+
+           .ruler img {
+             width: 5rem;
+             padding-left: 1.5rem;
+             padding-bottom: 0.5rem;
+             padding-top: 1rem;
+           }
+
+           .truck img {
+             width: 5rem;
+             padding-left: 1.5rem;
+             padding-bottom: 0.5rem;
+             padding-top: 0rem;
+           }
+
+           .paper p, .ruler p, .truck p {
+             text-align: center;
+             line-height: 1.4;
+             font-size: 0.77rem;
+
+
+           }
+
+           .paper p {
+             width: 7.5rem;
+           }
+
+           .ruler p {
+             width: 5rem;
+             padding-left: 1.5rem;
+           }
+
+           .truck p {
+             width: 4rem;
+             padding-left: 2rem;
+           }
+
+           .allpaper, .allruler, .alltruck {
+         padding-right: 6rem;
+           }
+
+           .paper, .ruler, .truck {
+           background-color: white;
+           height: 8rem;
+           width: 8rem;
+           }
+
+
+
+           .columncontainer {
+             display: block;
+             width: 100%;
+             height: auto;
+             max-width: 470px;
+             margin: 0 auto;
+           }
+
+           .leftcolumntitle {
+             background-color: cadetblue;
+             color: seashell;
+             width: 100%;
+             padding-top: 0.5rem;
+             padding-bottom: 0.5rem;
+             padding-left: 0rem;
+             text-align: center;
+           }
+           .rightcolumntitle {
+             background-color: cadetblue;
+             color: seashell;
+             width: 100%;
+             padding-top: 0.5rem;
+             padding-bottom: 0.5rem;
+             padding-left: 0rem;
+             text-align: center;
+           }
+           .leftcolumn {
+             width: 100%;
+             padding-right: 0;
+           }
+           .rightcolumn {
+             width: 100%;
+             padding-left: 0;
+           }
+           .maincontent {
+             display: block;
+             justify-content: center;
+             padding-bottom: 5rem;
+           }
+
+           .leftcolumnparagraph, .rightcolumnparagraph {
+             line-height: 1.4;
+             padding-top: 1rem;
+             font-size: 0.77rem;
+         }
+
+         .leftcolumnparagraph {
+           padding-bottom: 4rem;
+         }
+
+
+         .footercontainer {
+           display: flex;
+           width: 100%;
+           height: auto;
+           max-width: 470px;
+           margin: 0 auto;
+           justify-content: center;
+         }
+
+           footer {
+             display: flex;
+             justify-content: center;
+           }
+
+           .footer {
+             display: flex;
+             background-color: azure;
+             max-width: 470px;
+             width: 100%;
+
+           }
+
+           .footerlogo img {
+
+             height: 1.5rem;
+             padding-top: 4rem;
+             padding-bottom: 4rem;
+             padding-left: 10rem;
+             justify-content: center;
+
+           }
+
+           .footerheading {
+             display: none;
+             padding-top: 4.25rem;
+           }
+
+
+        }
